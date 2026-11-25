@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kinjal Gupta — Developer Portfolio</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      background-color: #f8fafc;
+      color: #1e293b;
+      line-height: 1.65;
+      padding: 40px 20px;
+    }
+
+    .container {
+      max-width: 820px;
+      margin: 0 auto;
+      background-color: #ffffff;
+      padding: 48px 52px;
+      border-radius: 8px;
+      box-shadow: 0 2px 12px rgba(15, 23, 42, 0.06);
+    }
+
+    /* Header Section */
+    header {
+      margin-bottom: 32px;
+    }
+
+    h1 {
+      font-size: 2.1rem;
+      font-weight: 700;
+      color: #0f172a;
+      margin-bottom: 6px;
+      letter-spacing: -0.02em;
+    }
+
+    .subtitle {
+      font-size: 0.98rem;
+      color: #475569;
+      margin-bottom: 16px;
+    }
+
+    .badges {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .badge {
+      background-color: #1e293b;
+      color: #ffffff;
+      font-size: 0.8rem;
+      font-weight: 600;
+      padding: 5px 14px;
+      border-radius: 999px;
+      letter-spacing: 0.01em;
+    }
+
+    /* Section Headings */
+    section {
+      margin-bottom: 30px;
+    }
+
+    section:last-child {
+      margin-bottom: 0;
+    }
+
+    h2 {
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: #0f172a;
+      border-left: 4px solid #1e293b;
+      padding-left: 12px;
+      margin-bottom: 14px;
+      line-height: 1.3;
+    }
+
+    p {
+      font-size: 0.96rem;
+      color: #334155;
+      margin-bottom: 10px;
+    }
+
+    /* Project Cards */
+    .project-card {
+      border: 1px solid #e2e8f0;
+      border-radius: 6px;
+      padding: 18px 22px;
+      margin-bottom: 16px;
+      background-color: #ffffff;
+    }
+
+    .project-card h3 {
+      font-size: 1.05rem;
+      font-weight: 700;
+      color: #0f172a;
+      margin-bottom: 8px;
+    }
+
+    .project-card p {
+      font-size: 0.94rem;
+      color: #334155;
+      margin-bottom: 10px;
+    }
+
+    .tech-stack {
+      font-size: 0.92rem;
+      color: #1e293b;
+      margin-bottom: 10px;
+    }
+
+    .tech-stack strong {
+      font-weight: 700;
+    }
+
+    .repo-link {
+      display: inline-block;
+      font-size: 0.92rem;
+      font-weight: 600;
+      color: #2563eb;
+      text-decoration: none;
+    }
+
+    .repo-link:hover {
+      text-decoration: underline;
+    }
+
+    /* Technical Skills Table */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 8px;
+      font-size: 0.94rem;
+    }
+
+    thead {
+      background-color: #1e3a5f;
+      color: #ffffff;
+    }
+
+    th {
+      text-align: left;
+      padding: 11px 16px;
+      font-weight: 600;
+    }
+
+    td {
+      padding: 11px 16px;
+      border-bottom: 1px solid #e2e8f0;
+      color: #334155;
+    }
+
+    tbody tr:nth-child(even) {
+      background-color: #f8fafc;
+    }
+
+    /* Certifications & Progress List */
+    .progress-list {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    .progress-list li {
+      font-size: 0.95rem;
+      color: #334155;
+      margin-bottom: 6px;
+    }
+
+    /* Inline & Contact Links */
+    a {
+      color: #2563eb;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .contact-list p {
+      margin-bottom: 6px;
+      font-size: 0.95rem;
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        padding: 28px 22px;
+      }
+
+      h1 {
+        font-size: 1.7rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Header -->
+    <header>
+      <h1>Hi, I am Kinjal Gupta</h1>
+      <p class="subtitle">B.Tech CSE Student &bull; K.R. Mangalam University, Gurugram &bull; Batch 2026–30</p>
+      <div class="badges">
+        <span class="badge">Python</span>
+        <span class="badge">Linux</span>
+        <span class="badge">Git &amp; GitHub</span>
+        <span class="badge">Shell Scripting</span>
+        <span class="badge">REST APIs</span>
+        <span class="badge">Markdown</span>
+      </div>
+    </header>
+
+    <!-- About Me -->
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        I am a first-year B.Tech Computer Science and Engineering student at K.R. Mangalam University with a strong interest in full-stack web development and Linux-based workflows. Currently, I am building foundational skills in Python, Git, and REST APIs through hands-on lab projects. My goal is to become a skilled Software Engineer capable of building scalable and user-friendly web applications.
+      </p>
+    </section>
+
+    <!-- Featured Projects -->
+    <section id="projects">
+      <h2>Featured Projects</h2>
+
+      <div class="project-card">
+        <h3>CSE103 Lab &mdash; GitHub Collaboration &amp; API Interaction</h3>
+        <p>
+          K.R. Mangalam University | CSE103 Lab Manual Lab repository covering Git workflows, Linux shell scripting, Markdown documentation, REST API interaction using curl and Postman, and debugging techniques.
+        </p>
+        <p class="tech-stack"><strong>Tech Stack:</strong> Python, Bash, Git, GitHub, curl, jq, Linux</p>
+        <a class="repo-link" href="https://github.com/kinjal2102/cse103_lab" target="_blank" rel="noopener noreferrer">
+          View Repository on GitHub &rarr;
+        </a>
+      </div>
+
+      <div class="project-card">
+        <h3>Developer Portfolio Index</h3>
+        <p>
+          A centralised index of all my repositories, a 6-semester learning roadmap, and a coding platform progress tracker.
+        </p>
+        <p class="tech-stack"><strong>Tech Stack:</strong> Markdown, HTML, CSS, GitHub Pages</p>
+        <a class="repo-link" href="https://github.com/kinjal2102/developer-portfolio" target="_blank" rel="noopener noreferrer">
+          View Repository on GitHub &rarr;
+        </a>
+      </div>
+    </section>
+
+    <!-- Technical Skills -->
+    <section id="skills">
+      <h2>Technical Skills</h2>
+      <table>
+        <thead>
+          <tr>
+            <th style="width: 28%;">Category</th>
+            <th>Technologies</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Languages</td>
+            <td>Python (Beginner), Bash / Shell Scripting</td>
+          </tr>
+          <tr>
+            <td>Tools</td>
+            <td>Git, GitHub, VS Code, Linux Terminal, curl, Postman</td>
+          </tr>
+          <tr>
+            <td>Concepts</td>
+            <td>File Systems, Process Management, REST APIs, Markdown</td>
+          </tr>
+          <tr>
+            <td>Platforms</td>
+            <td>HackerRank, LeetCode, freeCodeCamp</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- Certifications & Progress -->
+    <section id="certifications">
+      <h2>Certifications &amp; Progress</h2>
+      <ul class="progress-list">
+        <li>HackerRank Python Basic &mdash; In Progress</li>
+        <li>LeetCode: 5 Easy problems solved</li>
+        <li>freeCodeCamp: Responsive Web Design &mdash; In Progress</li>
+      </ul>
+    </section>
+
+    <!-- Learning Roadmap -->
+    <section id="roadmap">
+      <h2>Learning Roadmap</h2>
+      <p>
+        I have planned a structured 6-semester roadmap covering core CS, databases, web development, and my chosen specialisation track (<strong>Track A</strong>). Full details:
+        <a href="https://github.com/kinjal2102/developer-portfolio/blob/main/LEARNING_ROADMAP.md" target="_blank" rel="noopener noreferrer">View Roadmap</a>
+      </p>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+      <h2>Contact</h2>
+      <div class="contact-list">
+        <p>GitHub: <a href="https://github.com/kinjal2102" target="_blank" rel="noopener noreferrer">https://github.com/kinjal2102</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/kinjal-gupta-50369a421" target="_blank" rel="noopener noreferrer">https://www.linkedin.com/in/kinjal-gupta-50369a421</a></p>
+        <p>Email: <a href="mailto:guptakinjal006@gmail.com">guptakinjal006@gmail.com</a></p>
+      </div>
+    </section>
+  </div>
+</body>
+</html>
